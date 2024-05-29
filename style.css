@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+
+.container{
+    background-image: linear-gradient(rgb(43, 41, 41),rgb(47, 31, 31),black,rgb(47, 31, 31),black);
+    background-size: 100% 100%;
+    border: 4px solid rgb(128, 77, 0);
+    width: 100%;
+    padding: 1rem;    
+}
+
+.container h1{
+    text-align: center;
+    background: rgba(228, 87, 5, 0.1);
+    border-radius: 9px;
+    color: azure;
+}
+
+.content{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+}
+
+.content div{
+    width: 100%;
+    height:500px;
+    background-size: 100% 100%;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+}
+
+@keyframes animate {
+    from {
+       box-shadow: 0;
+    }
+    to{
+       
+    }
+}
+
+.content div:hover{
+    box-shadow: 10px 0px 10px ;
+}
+
+.car1{
+    background-image: url(https://images.pexels.com/photos/3786092/pexels-photo-3786092.jpeg?auto=compress&cs=tinysrgb&w=800);
+}
+
+.car2{
+    background-image: url(https://images.pexels.com/photos/8343508/pexels-photo-8343508.jpeg?auto=compress&cs=tinysrgb&w=800);
+}
+
+.car3{
+    background-image: url(https://images.pexels.com/photos/9277199/pexels-photo-9277199.jpeg?auto=compress&cs=tinysrgb&w=800);
+}
+
+.car4{
+    background-image: url(https://images.pexels.com/photos/13731866/pexels-photo-13731866.jpeg?auto=compress&cs=tinysrgb&w=800);
+}
+
+.car5{
+    background-image: url(https://images.pexels.com/photos/9277192/pexels-photo-9277192.jpeg?auto=compress&cs=tinysrgb&w=800);
+}
+
+.car6{
+    background-image: url(https://images.pexels.com/photos/3786092/pexels-photo-3786092.jpeg?auto=compress&cs=tinysrgb&w=800);
+}
+
+.car7{
+    background-image: url(https://images.pexels.com/photos/14843802/pexels-photo-14843802.jpeg?auto=compress&cs=tinysrgb&w=800);
+}
+
+.car8{
+    background-image: url(https://images.pexels.com/photos/18884448/pexels-photo-18884448/free-photo-of-bentley-bentayga-suv-on-street.jpeg?auto=compress&cs=tinysrgb&w=800);
+}
+
+.footer{
+    text-align: center;
+    color: whitesmoke;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
